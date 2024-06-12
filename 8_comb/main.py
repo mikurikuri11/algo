@@ -17,6 +17,7 @@ def comb_sort(numbers: List[int]) -> List[int]:
             if numbers[i] > numbers[i + gap]:
                 numbers[i], numbers[i + gap] = numbers[i + gap], numbers[i]
                 swapped = True
+
     return numbers
 
 
