@@ -44,5 +44,5 @@ def bucket_sort(numbers: List[int]) -> List[int]:
 
 if __name__ == '__main__':
     import random
-    nums = [random.randint(0, 1000) for _ in range(10)]
+    nums = [1, 5, 28, 25, 100, 52, 27, 91, 22, 99]
     print(bucket_sort(nums))
